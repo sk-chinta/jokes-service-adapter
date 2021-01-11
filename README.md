@@ -1,0 +1,1 @@
+# jokes-service-adapter
