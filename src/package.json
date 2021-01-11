@@ -1,0 +1,27 @@
+{
+  "name": "cc-database-adapter",
+  "version": "1.0.0",
+  "description": "cc database adapter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "startdev": "node index.js",
+    "test": "jest --maxWorkers=1"
+  },
+  "author": "PC",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "dotenv": "^8.0.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.9.2",
+    "validatorjs": "^3.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1"
+  }
+}
